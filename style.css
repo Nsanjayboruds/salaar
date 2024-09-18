@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav-1{
+    height: 200%;
+    width: 100%;
+    margin:auto; 
+    display: flex;
+   /* border: 2px solid#fff;*/
+   /* background-color: red;*/
+   background-color: black;
+}
+.logo{
+    height: 80px;
+    width: 100%;
+   
+}
+.logo img{
+    height: 80px;
+    width: 20%;
+    /*border-right: 2px solid#fff;*/
+    background-color: black;
+    
+}
+#page{
+    margin-left: -67%;
+}
+#page h2{
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 13px;
+    padding-top: 22px;
+    padding-bottom: 0rem;
+    font-size: 44px;
+    font-weight: 900;  
+}
+#page h2:hover{
+       color: color-mix(in oklab, red -50%, black -50%);
+}
+.hero-section{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+#scroll{
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    padding: 1vw;
+    margin-top: 0.1rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#container{
+    height: 100%;
+    width: 100%;
+   /* background-color: blue;*/
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#scroll img{
+  /* display: none;*/
+   height: 95%;
+   border-radius: 50%;
+   width: 16%;
+   margin: 2vw;
+   object-fit: cover;
+   object-position: 30% 30%;
+   
+}
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+#explain{
+    height: 100%;
+    width: 100%;
+    margin-top: 0.1rem;
+    background-image: url(https://wp.missmalini.com/wp-content/uploads/2023/12/Dunki-SAlaar-Movie-Review.png);
+   
+    border: 2px solid#fff;
+}
+#explain img{
+   
+  margin-bottom: 13px;
+  margin-top: -391px;
+  border-right: 2px solid#fff;
+  border-top: 2px solid#fff;
+  border-bottom: 2px solid#fff;
+  border-left: 2px solid#fff;
+  margin-left: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+#explain img:hover{
+    transform: scale(1.2);
+    
+}
+
+#explain p{
+    color: #fff;
+    left: 100px;
+    margin-left: 38%;
+  margin-bottom: 13px;
+  padding-top: 100px;
+  padding-bottom: 0rem;
+  text-align:center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20%;
+
+    
+   
+    
+}
+#explain h1{
+    color: #fff;
+}
+#explain h1:hover{
+   color: red;
+}
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+   height: 20%;
+   width: 100%;
+  /* padding: 1vh;*/
+   background-color: black;
+}
+.foot-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 60px;
+    /*padding-bottom: 0rem;*/
+
+}
+.foot-p a{
+    color: #fff;
+}
